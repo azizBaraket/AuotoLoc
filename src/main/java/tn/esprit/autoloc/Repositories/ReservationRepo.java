@@ -14,3 +14,4 @@ public interface ReservationRepo extends JpaRepository<Reservation,Long> {
     List<Reservation> findByDateFinBefore(LocalDate d);                                // 15
 
 }
+// Repository des reservations
